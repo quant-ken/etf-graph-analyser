@@ -26,7 +26,7 @@ class StockSummary:
     def __init__(self, name, raw_code):#, sector, product, listing_date, settlement_month, ceo_name, home_page, area):
         self.__name = name
         self.__raw_code = raw_code
-        self.__code = raw_code.rjust(6, "0")
+        self.__code = str(raw_code).rjust(6, "0")
         self.__trend_score = 0
 
     def print_info(self):
