@@ -7,7 +7,7 @@ from stock_summary import StockSummary
 class StockSummaryParser:
 
     # __base_excel_path = './resource/stock_list.xlsx'
-    __base_excel_path = './resource/stock_list.xlsm'
+    __base_excel_path = './resource/stock_list.xlsx'
     __restrict_stock_count = 20000
 
     @classmethod
