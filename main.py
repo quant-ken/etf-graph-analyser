@@ -34,7 +34,7 @@ def run():
 
 
 def run_test():
-    process('005930')   # 삼성전자
+    process('069500')   # KODEX 200
 
 
 def run_production():
